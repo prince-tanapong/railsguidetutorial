@@ -1,0 +1,57 @@
+# Ignore bundler config
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
+
+# Ignore the default database.
+/db/*.sqlite3
+/db/*.javadb/
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp
+.powder
+.virb*
+*.*~
+
+# various artifacts
+**.war
+*.gem
+*.rbc
+*.sassc
+.rspec
+.redcar/
+.config
+.sass-cache
+/public/cache
+/public/stylesheets/compiled
+/public/system/*
+/public/assets/*
+/public/sitemaps
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/specifications
+rerun.txt
+pickle-email-*.html
+.zeus.sock
+/solr/
+/.gemtags
+/coverage
+/coverage.data
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+
+# scm revert files
+**.orig
+
+#vagrant
+.vagrant/
+
+#gem
+Gemfile.lock
